@@ -1,0 +1,29 @@
+{
+  "name": "rand-stream",
+  "version": "0.0.0",
+  "description": "Filter random chunks of a stream",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "through": "~2.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/rand.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dstokes/rand-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "random"
+  ],
+  "author": "Drew Stokes",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/dstokes/rand-stream/issues"
+  }
+}

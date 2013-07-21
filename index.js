@@ -16,7 +16,10 @@ module.exports = function(count) {
       i++;
     },
     function() {
-      results.forEach(function(a) { this.queue(a); }, this);
+      while(results.length) {
+        this.queue(results.shift());
+      }
+      this.queue(null);
     }
   );
 };

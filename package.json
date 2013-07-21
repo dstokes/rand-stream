@@ -1,6 +1,6 @@
 {
   "name": "rand-stream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Filter random chunks of a stream",
   "main": "index.js",
   "directories": {
